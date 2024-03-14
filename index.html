@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body onload="buildMenu()">
+    <ul id="menu"></ul>
+    <script src="js/script.js"></script>
+
+
+    <h1>Modehuset Flux</h1>
+
+    <img src="image/home.modeflux.png" width="100%">
+    <h2>Våra nyheter</h2>
+    
+
+    <div class="selectedproducts">
+    <div>
+    <img src="image/blus.jpg" width="300">
+    <p>Blus</p>
+    <a href="kundkorg.html">Köp</a>
+    </div>
+    <div>
+    <img src="image/dress.jpg" width="300">
+    <p>Klänning</p>
+    <a href="kundkorg.html">Köp</a>
+    </div>
+    <div>
+    <img src="image/jacka.jpg" width="300">
+    <p>Jacka</p>
+    <a href="kundkorg.html">Köp</a>
+    </div>
+    </div>
+
+    <br><br>
+
+
+    <div class="selectedproducts">
+    <form action="" method="post">
+    <h3>Bli medlem hos oss!</h3>
+        <label for="firstname">Förnamn:</label>
+        <input name="firstname" id="firstname" type="text">
+        <br><br>
+        <label for="lastname">Efternamn:</label>
+        <input name="lastname" id="lastname" type="text">
+        <br><br>
+        <label for="email">Email adress:</label>
+        <input name="email" id="email" type="text">
+
+        <br><br>
+
+        När fyller du år:
+        <input type="date">
+        <br><br>
+
+        Ange ett lösenord:
+        <input type="password">
+
+        <br><br>
+
+        <p>Kön:</p>
+        <input type="radio" name="person" id="women" value="women">
+        <lable for="women">Kvinna</lable>
+
+        <input type="radio" name="person" id="man" value="man">
+        <lable for="man">Man</lable>
+
+        <input type="radio" name="person" id="other" value="other">
+        <lable for="other">Annat</lable>
+
+        <input type="radio" name="person" id="nothing" value="nothing">
+        <lable for="nothing">Vill inte säga</lable>
+
+        <br><br>
+        
+        <p>Klicka in rutan om du vill ha nyhetsbrev:</p>
+        <input type="checkbox" name="newsletter" id="newsletter" value="ja">
+        <label for="newslatter">Nyhetsbrev från Modehuset flux!</label>
+
+        <br><br><br>
+
+        <input type="submit" value="Bli medlem">
+    </form>
+    </div>
+
+
+
+<p>&copy; 2024</p>
+
+</body>
+</html>
