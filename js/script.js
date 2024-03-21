@@ -5,7 +5,7 @@ function buildMenu()
        ["Produktsida", "produktsida.html"],
        ["Om oss", "omoss.html"],
        ["Kontakta oss", "kontaktaoss.html"],
-       ["Aktuell kampanj", "https://wordpress.com/page/dinaakkbari03.wordpress.com/20"]
+       ["Aktuell kampanj", "https://dinaakkbari03.wordpress.com/aktuella-kampanjer/"]
     ]
     
     var content = ""
